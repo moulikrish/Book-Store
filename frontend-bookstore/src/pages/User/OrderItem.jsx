@@ -64,7 +64,7 @@ const OrderItem = () => {
     };
 
     try {
-      await axios.post("http://localhost:5000/api/orders", orderData);
+      await axios.post("https://book-store-1sor.onrender.com/api/orders", orderData);
       alert("Order placed successfully!");
       navigate("/myorders");
     } catch (err) {
