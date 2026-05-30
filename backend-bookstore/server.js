@@ -41,6 +41,10 @@ app.use("/item", require("./routes/bookRoutes"));
 app.use("/api/wishlist", require("./routes/wishlistRoutes"));
 app.use("/item", require("./routes/itemRoutes"));
 
+app.get("/", (req, res) => {
+  res.send("Backend running");
+});
+
 // error handling
 const { notFound, errorHandler } = require("./middleware/errorMiddleware");
 app.use(notFound);
