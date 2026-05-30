@@ -60,7 +60,7 @@ const Wishlist = () => {
                 className="bg-green-100 border border-green-200 w-full max-w-xs rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
               >
                 <img
-                  src={`http://localhost:5000/${item.itemImage}`}
+                  src={`https://book-store-1sor.onrender.com/api/${item.itemImage}`}
                   alt={item.title}
                   className="rounded-t-2xl object-cover w-full h-64 sm:h-72"
                 />
