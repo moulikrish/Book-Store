@@ -10,7 +10,7 @@ const Uitem = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/api/books/${id}`)
+      .get(`https://book-store-1sor.onrender.com/api/api/books/${id}`)
       .then((res) => setItem(res.data))
       .catch((err) => console.error("Failed to fetch item:", err));
   }, [id]);

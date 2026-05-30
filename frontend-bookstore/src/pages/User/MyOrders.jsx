@@ -17,7 +17,7 @@ const MyOrders = () => {
     }
 
     axios
-      .get(`http://localhost:5000/api/orders/getorders/${user._id}`)
+      .get(`https://book-store-1sor.onrender.com/api/orders/getorders/${user._id}`)
       .then((res) => setOrders(res.data))
       .catch((err) => console.error("Error fetching orders:", err));
   }, [navigate]);
