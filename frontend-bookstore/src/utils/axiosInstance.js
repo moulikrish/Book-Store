@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api", // change if backend url differs
+  baseURL: "https://book-store-1sor.onrender.com/api", // change if backend url differs
   headers: { "Content-Type": "application/json" },
 });
 
