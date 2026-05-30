@@ -10,7 +10,7 @@ const Unavbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="bg-gradient-to-r from-green-800 to-green-600 text-green-50 font-serif shadow-md">
+    <nav className="bg-linear-to-r from-green-800 to-green-600 text-green-50 font-serif shadow-md">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
 
         {/* Logo */}

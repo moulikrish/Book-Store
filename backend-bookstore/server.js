@@ -16,9 +16,9 @@ const app = express();
 // Middlewares
 app.use(
   cors({
-    origin: ["https://book-store-opal-zeta.vercel.app/"],
+    origin: ["https://book-store-opal-zeta.vercel.app"],
     methods: ["POST", "GET", "DELETE", "PUT"],
-    allowedHeaders: ["Content-type", "Authorization"],
+    allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
   })
 );

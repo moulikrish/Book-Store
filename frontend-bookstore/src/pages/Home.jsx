@@ -85,7 +85,7 @@ const Home = () => {
 
           <Link
             to="/login"
-            className="px-8 py-3 bg-gradient-to-r from-[#38a169] to-[#2f855a] text-white font-bold rounded-full hover:scale-110 transition duration-300 shadow-lg"
+            className="px-8 py-3 bg-linear-to-r from-[#38a169] to-[#2f855a] text-white font-bold rounded-full hover:scale-110 transition duration-300 shadow-lg"
           >
             Browse Books
           </Link>
